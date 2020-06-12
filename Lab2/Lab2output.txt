@@ -1,0 +1,41 @@
+Star Wars: A Musical Journey (2005) (V)
+Star Wars: Episode II - Attack of the Clones (2002)
+Star Wars: Episode III - Revenge of the Sith (2005)
+Star Wars Episode V 1/2: The Han Solo Affair (2002)
+Star Wars: Revelations (2005) (V)
+Star Wars: The Clone Wars (2008)
+Abendland (1999)
+A Dog of Flanders (1999)
+Backstreet Boys Homecoming: Live in Orlando (1999) (V)
+Bear Island (1979)
+Clubland (1999)
+Drowning on Dry Land (1999)
+Heartland (1979)
+Hinterland (1999)
+In a Savage Land (1999)
+Jackson Pollock: Love and Death on Long Island (1999) (V)
+Landspeed: CKY (1999) (V)
+Sayehaye bolande bad (1979)
+Schlaraffenland (1999)
+The Adventures of Elmo in Grouchland (1999)
+The Clandestine Marriage (1999)
+The Lost Treasure of Sawtooth Island (1999)
+The Wacky Adventures of Ronald McDonald: The Legend of Grimace Island (1999) (V)
+Treasure Island (1999/I)
+Treasure Island (1999/II)
+Wonderland (1999)
+  104  curl -O http://www.cs.uky.edu/~yipike/CS216/imdb.txt
+  105  cat imdb.txt
+  106* sort -d imdb.txt | grep "^Star Wars.*20
+  107  cd lab2
+  108  curl -O http://www.cs.uky.edu/~yipike/CS216/imdb.txt
+  109  cat imdb.txt
+  110  sort -d imdb.txt | grep "^Star Wars.*200[2-9]"
+  111  sort -d imdb.txt | grep "^Star Wars.*200[2-9]">Lab2output.txt
+  112  sort -d imdb.txt | grep -i "land.*19\(99\|79\)"
+  113  sort -d imdb.txt | grep -i "land.*19\(99\|79\)">>Lab2.txt
+  114  sort -d imdb.txt | grep -i "land.*19\(99\|79\)">>Lab2output.txt
+  115  cat Lab2output.txt
+  116  history
+  117  history | tail 15 >>Lab2output.txt
+  118  history | tail -15 >>Lab2output.txt
