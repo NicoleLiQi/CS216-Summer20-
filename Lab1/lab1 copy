@@ -1,0 +1,38 @@
+/home/yli447/CS216/Lab1
+total 4
+-rw-rw-r-- 1 yli447 yli447 24 Jun  9 16:53 file1
+ ____________________________
+< Hello Yash, I am Yueqi Li. >
+ ----------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+    1  clear
+    2  history -w
+    3  mkdir CS216
+    4  cd CS216
+    5  mkdir Lab1
+    6  cd Lab1
+    7  pwd>file1
+    8  cat file1
+    9  ls -l
+   10  ls-l>>file1
+   11  ls -l>>file1
+   12  LS
+   13  cowsay "Hello Yash, I am Yueqi Li.">>file1
+   14  cat file1
+   15  echo shell
+   16  echo $shell
+   17  echo $SHELL
+   18  man ls
+   19  history>file2
+                                                                             
+ mmmmmm           "                          mmm   mmmm   mmmm  mmm      mmm 
+ #      m mm    mmm    mmm   m   m         m"   " #"   " "   "#   #    m"   "
+ #mmmmm #"  #     #   #" "#  "m m"         #      "#mmm      m"   #    #m""#m
+ #      #   #     #   #   #   #m#          #          "#   m"     #    #    #
+ #mmmmm #   #     #   "#m#"   "#            "mmm" "mmm#" m#mmmm mm#mm   #mm#"
+                  #           m"                                             
+                ""           ""                                              
